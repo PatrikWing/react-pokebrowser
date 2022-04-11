@@ -43,7 +43,7 @@ export const PokemonCard = ({pokemon}) => {
 
   return (
   <div className={`flex flex-col w-64 h-fit group ${details?.types ? typeColors[details.types[0].type.name] : typeColors.normal} rounded-xl drop-shadow-xl`}>
-    <p className="text-center py-2w-full">{pokemon.name.toUpperCase()}</p>
+    <p className="font-bold text-center text-indigo-100 py-2w-full">{pokemon.name.toUpperCase()}</p>
     <img src={details?.sprites?.other?.dream_world?.front_default} alt={pokemon.name} className="h-56 p-2 transition group-hover:translate-x-2"/>
     
     {/* TODO: Pokemon stats (working but looks uggly)

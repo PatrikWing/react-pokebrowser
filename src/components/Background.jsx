@@ -1,4 +1,4 @@
 export const Background = ({children}) => {
-  return <div className="flex flex-col items-center justify-center w-screen h-screen bg-indigo-500">{children}</div>
+  return <div className="flex flex-col items-center justify-center w-screen h-screen font-sans bg-indigo-300">{children}</div>
 }
   
