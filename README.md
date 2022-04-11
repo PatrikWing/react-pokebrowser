@@ -1,5 +1,5 @@
 # Poke Browser
-![react-pokebrowser](https://github.com/PatrikWing/react-pokebrowser/blob/main/promo/pokebrowse.PNG?raw=true)
+![react-pokebrowser](https://github.com/PatrikWing/react-pokebrowser/blob/main/promo/pokebrowse.png?raw=true)
 A simple React + tailwindcss app that fetches 200 pokemon from https://pokeapi.co/ and displays them with their respective type's color theme.
 You can filter the pokemon by their name (groundbraking technology!).
 
