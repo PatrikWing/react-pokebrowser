@@ -11,7 +11,7 @@ export const Pokebrowse = () => {
   const [input, setInput] = useState("")
 
 
-  // fetch pokemon everytime limit changes
+  // fetch pokemon once
   useEffect( () => {
     const getPokemonWithLimit = async (nrOfPokemonsToGet) => {
       const response = await fetch(`https://pokeapi.co/api/v2/pokemon?limit=${nrOfPokemonsToGet}`, {
@@ -33,7 +33,7 @@ export const Pokebrowse = () => {
     
   },[])
 
-  // filter pokemon by name when input changes, or new pokemon
+  // filter pokemon by name when input changes, or when new pokemon
   useEffect( () => {
     const filterPokemon = () => {
       setFilteredPokemons(pokemons.filter(pokemon => pokemon.name.toLowerCase().includes(input.toLowerCase())))
