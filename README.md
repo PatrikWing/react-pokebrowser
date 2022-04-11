@@ -7,6 +7,21 @@ You can filter the pokemon by their name (groundbraking technology!).
 * No media queries have been added to this project as of yet.
 * This is just a simple project to hint that I can use React.
 
+## Implements the following React concepts:
+* Component state (useState).
+* Hooks (useEffect).
+* Routing (react-router-dom).
+* Functional components / pages.
+
+## Implements the following Javascript concepts:
+* Async / await.
+* Arrow functions.
+* Destructuring assignment.
+* Object destructuring.
+
+## Implements the following CSS concepts:
+* Flexbox (all layout).
+
 ## Install
 $ npm install
 
