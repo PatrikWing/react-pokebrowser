@@ -48,7 +48,7 @@ export const Pokebrowse = () => {
           <img src={require("../img/pokemon_browse.png")} alt="pokemon_fetch" className="w-48 px-2"/>
           <input type="text" className="w-56 h-8 px-2 rounded-sm" placeholder="🔍 Who's that pokemon!?" value={input} onInput={e => setInput(e.target.value)}/>
         </nav>
-        <ul className="flex flex-wrap justify-center w-4/5 h-full gap-8 p-10 overflow-y-auto bg-indigo-400 shadow-xl scrollbar">
+        <ul className="flex flex-wrap content-start justify-center w-4/5 h-full gap-8 p-10 overflow-y-auto bg-indigo-400 shadow-xl scrollbar">
           {filteredPokemons.map(pokemon => <PokemonCard key={pokemon.name} pokemon={pokemon}/>)}
         </ul>
     </Background>
